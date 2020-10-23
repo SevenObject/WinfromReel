@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("机器设备");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("原材料采购");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("原材料");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("成品");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("仓库", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode13});
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("销售订单");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("职员管理");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("钢板配送");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("钢板切割系统", new System.Windows.Forms.TreeNode[] {
-            treeNode10,
-            treeNode11,
-            treeNode14,
-            treeNode15,
-            treeNode16,
-            treeNode17});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("机器设备");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("原材料采购");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("原材料");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("成品");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("仓库", new System.Windows.Forms.TreeNode[] {
+            treeNode30,
+            treeNode31});
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("销售订单");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("职员管理");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("钢板配送");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("钢板切割系统", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
+            treeNode29,
+            treeNode32,
+            treeNode33,
+            treeNode34,
+            treeNode35});
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -177,26 +177,26 @@
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Margin = new System.Windows.Forms.Padding(20);
             this.treeView1.Name = "treeView1";
-            treeNode10.Name = "节点1";
-            treeNode10.Text = "机器设备";
-            treeNode11.Name = "节点2";
-            treeNode11.Text = "原材料采购";
-            treeNode12.Name = "节点7";
-            treeNode12.Text = "原材料";
-            treeNode13.Name = "成品";
-            treeNode13.Text = "成品";
-            treeNode14.Name = "节点3";
-            treeNode14.Text = "仓库";
-            treeNode15.Name = "节点4";
-            treeNode15.Text = "销售订单";
-            treeNode16.Name = "节点5";
-            treeNode16.Text = "职员管理";
-            treeNode17.Name = "节点6";
-            treeNode17.Text = "钢板配送";
-            treeNode18.Name = "TELL";
-            treeNode18.Text = "钢板切割系统";
+            treeNode28.Name = "节点1";
+            treeNode28.Text = "机器设备";
+            treeNode29.Name = "节点2";
+            treeNode29.Text = "原材料采购";
+            treeNode30.Name = "节点7";
+            treeNode30.Text = "原材料";
+            treeNode31.Name = "成品";
+            treeNode31.Text = "成品";
+            treeNode32.Name = "节点3";
+            treeNode32.Text = "仓库";
+            treeNode33.Name = "节点4";
+            treeNode33.Text = "销售订单";
+            treeNode34.Name = "节点5";
+            treeNode34.Text = "职员管理";
+            treeNode35.Name = "节点6";
+            treeNode35.Text = "钢板配送";
+            treeNode36.Name = "TELL";
+            treeNode36.Text = "钢板切割系统";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode18});
+            treeNode36});
             this.treeView1.ShowNodeToolTips = true;
             this.treeView1.Size = new System.Drawing.Size(121, 606);
             this.treeView1.TabIndex = 2;
@@ -332,6 +332,7 @@
             this.btn_Add.TabIndex = 7;
             this.btn_Add.Text = "新增配送单";
             this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // txt_Key
             // 
@@ -348,6 +349,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "关键字查询";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_Upd
             // 
@@ -357,6 +359,7 @@
             this.btn_Upd.TabIndex = 10;
             this.btn_Upd.Text = "编辑";
             this.btn_Upd.UseVisualStyleBackColor = true;
+            this.btn_Upd.Click += new System.EventHandler(this.btn_Upd_Click);
             // 
             // btn_
             // 
@@ -366,6 +369,7 @@
             this.btn_.TabIndex = 9;
             this.btn_.Text = "删除";
             this.btn_.UseVisualStyleBackColor = true;
+            this.btn_.Click += new System.EventHandler(this.btn__Click);
             // 
             // SendInfoFristShow
             // 

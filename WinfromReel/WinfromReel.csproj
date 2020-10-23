@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSendForm.Designer.cs">
+      <DependentUpon>AddSendForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddSteelMater.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SteelprocessingDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="UpdSendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdSendForm.Designer.cs">
+      <DependentUpon>UpdSendForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddSendForm.resx">
+      <DependentUpon>AddSendForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddSteelMater.resx">
       <DependentUpon>AddSteelMater.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +110,9 @@
     </Compile>
     <EmbeddedResource Include="SendInfoFristShow.resx">
       <DependentUpon>SendInfoFristShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdSendForm.resx">
+      <DependentUpon>UpdSendForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
