@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinfromReel", "WinfromReel\WinfromReel.csproj", "{BF2AEA1C-1143-4EE7-95A0-8310B2E090BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteelModel", "SteelModel\SteelModel.csproj", "{1DACC352-957E-4B48-9149-1ABDD17C7A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteelDAL", "SteelDAL\SteelDAL.csproj", "{CFDA612A-6E61-47D5-8A74-5CF69C5CC7C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2AEA1C-1143-4EE7-95A0-8310B2E090BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2AEA1C-1143-4EE7-95A0-8310B2E090BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2AEA1C-1143-4EE7-95A0-8310B2E090BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2AEA1C-1143-4EE7-95A0-8310B2E090BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DACC352-957E-4B48-9149-1ABDD17C7A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DACC352-957E-4B48-9149-1ABDD17C7A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DACC352-957E-4B48-9149-1ABDD17C7A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DACC352-957E-4B48-9149-1ABDD17C7A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDA612A-6E61-47D5-8A74-5CF69C5CC7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDA612A-6E61-47D5-8A74-5CF69C5CC7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDA612A-6E61-47D5-8A74-5CF69C5CC7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDA612A-6E61-47D5-8A74-5CF69C5CC7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74E54F6D-29DD-4894-896E-F96681722CC5}
+	EndGlobalSection
+EndGlobal
