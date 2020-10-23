@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBHelper.cs" />
+    <Compile Include="ProDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SendInfoDAL.cs" />
     <Compile Include="SteelMaterDAL.cs" />
